@@ -1,6 +1,6 @@
 import { createSignal } from "solid-js";
 import type { Todo } from "../types";
-import "../styles/TodoForm.scss";
+// import "../styles/TodoForm.scss";
 
 export default function TodoForm(props: { addTodo: (todo: Todo) => void }) {
   const [text, setText] = createSignal("");
